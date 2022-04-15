@@ -1,0 +1,65 @@
+/* section#1 styles */
+.container {
+    width:1170px;
+    margin:0 auto;
+    background-color: lightblue;
+}
+.block {
+    width:370px;
+    height: 374px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blue-box {
+    width:88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    width: 250px;
+    background-color: aqua;
+    text-align: center;
+}
+.size {
+    margin-top:25px;
+}
+.margin {
+    margin-bottom: 25px;
+}
+.text-block {
+    width: 770px;
+    background-color: blueviolet;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+/* section#2 */
+.image {
+    width:800px;
+    height: 800px;
+    object-fit: contain;
+}
+
+/* background image */
+.bg-image {
+    background-image: url('../images/photographer.jpg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background: url('../images/photographer.jpg') cover no-repeat; */
+}
